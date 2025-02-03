@@ -1,0 +1,7 @@
+{
+    "watch": [
+        "src"
+    ],
+    "exec": "NODE_ENV=local ts-node --project tsconfig.json src/app.ts",
+    "ext": "ts,js"
+}

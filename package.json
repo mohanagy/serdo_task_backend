@@ -1,0 +1,49 @@
+{
+  "name": "fs_task_1_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:local": "NODE_ENV=local nodemon --watch src --ext ts,js --exec \"ts-node --transpile-only --project tsconfig.json src/app.ts\"",
+    "build": "tsc --build --clean"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "joi": "^17.13.3",
+    "jsdom": "^26.0.0",
+    "mongoose": "^8.9.3",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
+    "puppeteer": "^24.1.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.8",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/express-session": "^1.18.1",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.10.5",
+    "@types/passport": "^1.0.17",
+    "@types/passport-github2": "^1.2.9",
+    "@typescript-eslint/eslint-plugin": "^8.21.0",
+    "@typescript-eslint/parser": "^8.21.0",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "i": "^0.3.7",
+    "nodemon": "^3.1.9",
+    "npm": "^11.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
